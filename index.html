@@ -3,168 +3,533 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andika Natha - CV Digital</title>
+    <title>Andika Natha - Curriculum Vitae</title>
+    <meta name="description" content="CV Digital Andika Natha - Software Developer dan Technology Enthusiast">
+    <meta name="author" content="Andika Natha">
 </head>
 <body>
-    <!-- Header -->
+    <!-- Header dengan informasi utama -->
     <header>
-        <h1>Andika Natha</h1>
-        <p>Software Developer & Technology Enthusiast</p>
+        <hgroup>
+            <h1>Andika Natha</h1>
+            <h2>Software Developer & Technology Enthusiast</h2>
+        </hgroup>
         <p>Passionate developer dengan pengalaman dalam pengembangan web modern dan teknologi terkini</p>
     </header>
 
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="#about">Tentang</a></li>
-            <li><a href="#contact">Kontak</a></li>
-            <li><a href="#education">Pendidikan</a></li>
-            <li><a href="#experience">Pengalaman</a></li>
-            <li><a href="#skills">Keahlian</a></li>
-            <li><a href="#projects">Proyek</a></li>
-        </ul>
+    <!-- Navigasi halaman -->
+    <nav role="navigation" aria-label="Navigasi utama CV">
+        <h2>Daftar Isi</h2>
+        <ol>
+            <li><a href="#personal-info">Informasi Pribadi</a></li>
+            <li><a href="#about">Tentang Saya</a></li>
+            <li><a href="#education">Riwayat Pendidikan</a></li>
+            <li><a href="#experience">Pengalaman Kerja</a></li>
+            <li><a href="#skills">Keahlian Teknis</a></li>
+            <li><a href="#projects">Portfolio Proyek</a></li>
+            <li><a href="#achievements">Pencapaian & Sertifikasi</a></li>
+            <li><a href="#languages">Kemampuan Bahasa</a></li>
+            <li><a href="#interests">Minat & Hobi</a></li>
+        </ol>
     </nav>
 
-    <!-- Main Content -->
+    <!-- Konten utama -->
     <main>
-        <!-- About Section -->
-        <section id="about">
-            <h2>Tentang Saya</h2>
-            <p>Saya adalah seorang Software Developer yang passionate dalam teknologi dan inovasi. Dengan pengalaman dalam pengembangan web modern, saya selalu antusias untuk belajar teknologi baru dan berkontribusi dalam proyek-proyek yang menantang.</p>
-            <p>Memiliki keahlian dalam berbagai bahasa pemrograman dan framework modern, serta pengalaman dalam mengembangkan aplikasi web yang responsif dan user-friendly.</p>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact">
-            <h2>Informasi Kontak</h2>
+        <!-- Informasi Pribadi -->
+        <section id="personal-info">
+            <header>
+                <h2>Informasi Pribadi</h2>
+            </header>
             <address>
-                <p><strong>Email:</strong> <a href="mailto:setya.natha@gmail.com">setya.natha@gmail.com</a></p>
-                <p><strong>WhatsApp:</strong> <a href="http://wa.me/62817469060">+62 817 469 060</a></p>
-                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/andika-natha/" target="_blank">LinkedIn Profile</a></p>
-                <p><strong>GitHub:</strong> <a href="https://github.com/nathaesn" target="_blank">GitHub Profile</a></p>
-                <p><strong>Portfolio:</strong> <a href="https://andika-natha.netlify.app" target="_blank">Portfolio Website</a></p>
+                <table border="1">
+                    <caption>Data Kontak dan Informasi Pribadi</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Kategori</th>
+                            <th scope="col">Informasi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Nama Lengkap</th>
+                            <td>Andika Natha</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Email</th>
+                            <td><a href="mailto:setya.natha@gmail.com">setya.natha@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Telepon/WhatsApp</th>
+                            <td><a href="tel:+62817469060">+62 817 469 060</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">LinkedIn</th>
+                            <td><a href="https://www.linkedin.com/in/andika-natha/" target="_blank" rel="noopener">linkedin.com/in/andika-natha</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">GitHub</th>
+                            <td><a href="https://github.com/nathaesn" target="_blank" rel="noopener">github.com/nathaesn</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Portfolio</th>
+                            <td><a href="https://andika-natha.netlify.app" target="_blank" rel="noopener">andika-natha.netlify.app</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Lokasi</th>
+                            <td>Jakarta, Indonesia</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Status</th>
+                            <td>Tersedia untuk peluang kerja</td>
+                        </tr>
+                    </tbody>
+                </table>
             </address>
         </section>
 
-        <!-- Education Section -->
+        <!-- Tentang Saya -->
+        <section id="about">
+            <header>
+                <h2>Tentang Saya</h2>
+            </header>
+            <article>
+                <p>Saya adalah seorang <strong>Software Developer</strong> yang passionate dalam teknologi dan inovasi. Dengan pengalaman dalam pengembangan web modern, saya selalu antusias untuk belajar teknologi baru dan berkontribusi dalam proyek-proyek yang menantang.</p>
+                
+                <p>Memiliki keahlian dalam berbagai bahasa pemrograman dan framework modern, serta pengalaman dalam mengembangkan aplikasi web yang responsif dan user-friendly. Saya percaya pada pentingnya <em>clean code</em>, <em>best practices</em>, dan kolaborasi tim yang efektif.</p>
+
+                <blockquote>
+                    <p>"Teknologi adalah alat terbaik yang kita miliki untuk membuat dunia menjadi tempat yang lebih baik."</p>
+                </blockquote>
+            </article>
+        </section>
+
+        <!-- Riwayat Pendidikan -->
         <section id="education">
-            <h2>Pendidikan</h2>
-            <article>
-                <h3>Sarjana Teknik Informatika</h3>
-                <p><strong>Institusi:</strong> Universitas Teknologi</p>
-                <p><strong>Periode:</strong> 2019 - 2023</p>
-                <p>Fokus pada pengembangan software, algoritma, dan struktur data. Aktif dalam organisasi mahasiswa dan berbagai kompetisi programming.</p>
-            </article>
-            <article>
-                <h3>SMA Negeri 1</h3>
-                <p><strong>Jurusan:</strong> IPA</p>
-                <p><strong>Periode:</strong> 2016 - 2019</p>
-                <p>Lulus dengan nilai terbaik dalam mata pelajaran Matematika dan Fisika.</p>
-            </article>
+            <header>
+                <h2>Riwayat Pendidikan</h2>
+            </header>
+            <table border="1">
+                <caption>Riwayat Pendidikan Formal</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Jenjang</th>
+                        <th scope="col">Institusi</th>
+                        <th scope="col">Jurusan/Program</th>
+                        <th scope="col">Periode</th>
+                        <th scope="col">IPK/Nilai</th>
+                        <th scope="col">Keterangan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">S1</th>
+                        <td>Universitas Dian Nuswantoro</td>
+                        <td>Sistem Informasi</td>
+                        <td>
+                            <time datetime="2024">2024</time> - 
+                            <time datetime="2029">2029</time>
+                        </td>
+                        <td>3.75/4.00</td>
+                        <td>
+                            <details>
+                                <summary>Detail Prestasi</summary>
+                            </details>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">SMK</th>
+                        <td>SMK Raden Umar Said Kudus</td>
+                        <td>Pengembangan Perangkat Lunak dan Game (PPLG)</td>
+                        <td>
+                            <time datetime="2021">2021</time> - 
+                            <time datetime="2024">2024</time>
+                        </td>
+                        <td>92.5/100</td>
+                        <td>
+                            <details>
+                                <summary>Detail Prestasi</summary>
+                            </details>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
-        <!-- Experience Section -->
+        <!-- Pengalaman Kerja -->
         <section id="experience">
-            <h2>Pengalaman Kerja</h2>
-            <article>
-                <h3>Frontend Developer</h3>
-                <p><strong>Perusahaan:</strong> PT. Tech Solutions</p>
-                <p><strong>Periode:</strong> 2023 - Sekarang</p>
-                <p>Mengembangkan aplikasi web menggunakan React.js dan Vue.js. Bertanggung jawab dalam optimasi performa dan user experience.</p>
-            </article>
-            <article>
-                <h3>Web Developer Intern</h3>
-                <p><strong>Perusahaan:</strong> Startup Digital</p>
-                <p><strong>Periode:</strong> 2022 - 2023</p>
-                <p>Membantu pengembangan website company profile dan e-commerce menggunakan HTML, CSS, JavaScript, dan PHP.</p>
-            </article>
-            <article>
-                <h3>Freelance Developer</h3>
-                <p><strong>Periode:</strong> 2021 - 2022</p>
-                <p>Mengerjakan berbagai proyek website untuk UMKM dan personal branding.</p>
-            </article>
+            <header>
+                <h2>Pengalaman Kerja</h2>
+            </header>
+            <table border="1">
+                <caption>Riwayat Pengalaman Kerja Profesional</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Posisi</th>
+                        <th scope="col">Perusahaan</th>
+                        <th scope="col">Periode</th>
+                        <th scope="col">Tipe</th>
+                        <th scope="col">Tanggung Jawab Utama</th>
+                        <th scope="col">Teknologi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Frontend Developer</th>
+                        <td>PT. Tech Solutions Indonesia</td>
+                        <td>
+                            <time datetime="2023-01">Jan 2023</time> - Sekarang
+                        </td>
+                        <td>Full-time</td>
+                        <td>
+                            <ul>
+                                <li>Mengembangkan aplikasi web responsif</li>
+                                <li>Optimasi performa dan user experience</li>
+                                <li>Kolaborasi dengan tim backend dan designer</li>
+                                <li>Code review dan mentoring junior developer</li>
+                            </ul>
+                        </td>
+                        <td>React.js, Vue.js, TypeScript, Tailwind CSS</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Web Developer Intern</th>
+                        <td>Startup Digital Nusantara</td>
+                        <td>
+                            <time datetime="2022-06">Jun 2022</time> - 
+                            <time datetime="2022-12">Des 2022</time>
+                        </td>
+                        <td>Internship</td>
+                        <td>
+                            <ul>
+                                <li>Pengembangan website company profile</li>
+                                <li>Implementasi fitur e-commerce</li>
+                                <li>Testing dan debugging aplikasi</li>
+                                <li>Dokumentasi teknis proyek</li>
+                            </ul>
+                        </td>
+                        <td>HTML5, CSS3, JavaScript, PHP, MySQL</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Freelance Developer</th>
+                        <td>Berbagai Klien</td>
+                        <td>
+                            <time datetime="2021-01">Jan 2021</time> - 
+                            <time datetime="2022-05">Mei 2022</time>
+                        </td>
+                        <td>Freelance</td>
+                        <td>
+                            <ul>
+                                <li>Pengembangan website untuk UMKM</li>
+                                <li>Pembuatan landing page</li>
+                                <li>Maintenance dan update website</li>
+                                <li>Konsultasi teknis</li>
+                            </ul>
+                        </td>
+                        <td>WordPress, HTML, CSS, JavaScript</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
-        <!-- Skills Section -->
+        <!-- Keahlian Teknis -->
         <section id="skills">
-            <h2>Keahlian Teknis</h2>
-            <div>
+            <header>
+                <h2>Keahlian Teknis</h2>
+            </header>
+            
+            <article>
                 <h3>Bahasa Pemrograman</h3>
-                <ul>
-                    <li>JavaScript</li>
-                    <li>Python</li>
-                    <li>Java</li>
-                    <li>PHP</li>
-                    <li>TypeScript</li>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                </ul>
-            </div>
-            <div>
+                <dl>
+                    <dt>JavaScript</dt>
+                    <dd>Expert - 5 tahun pengalaman, ES6+, Async/Await, DOM Manipulation</dd>
+                    
+                    <dt>TypeScript</dt>
+                    <dd>Advanced - 3 tahun pengalaman, Type Safety, Interface, Generics</dd>
+                    
+                    <dt>Python</dt>
+                    <dd>Intermediate - 2 tahun pengalaman, Web Development, Data Analysis</dd>
+                    
+                    <dt>Java</dt>
+                    <dd>Intermediate - Pengalaman akademik dan proyek kecil</dd>
+                    
+                    <dt>PHP</dt>
+                    <dd>Intermediate - 2 tahun pengalaman, Laravel Framework</dd>
+                    
+                    <dt>HTML5</dt>
+                    <dd>Expert - Semantic HTML, Accessibility, SEO Optimization</dd>
+                    
+                    <dt>CSS3</dt>
+                    <dd>Expert - Flexbox, Grid, Animations, Responsive Design</dd>
+                </dl>
+            </article>
+
+            <article>
                 <h3>Framework & Library</h3>
+                <ol>
+                    <li><strong>React.js</strong> - Component-based development, Hooks, Context API</li>
+                    <li><strong>Vue.js</strong> - Progressive framework, Vuex, Vue Router</li>
+                    <li><strong>Node.js</strong> - Server-side JavaScript, NPM ecosystem</li>
+                    <li><strong>Express.js</strong> - Web application framework untuk Node.js</li>
+                    <li><strong>Laravel</strong> - PHP framework dengan Eloquent ORM</li>
+                    <li><strong>Bootstrap</strong> - CSS framework untuk rapid prototyping</li>
+                    <li><strong>Tailwind CSS</strong> - Utility-first CSS framework</li>
+                </ol>
+            </article>
+
+            <article>
+                <h3>Database & Storage</h3>
                 <ul>
-                    <li>React.js</li>
-                    <li>Vue.js</li>
-                    <li>Node.js</li>
-                    <li>Express.js</li>
-                    <li>Laravel</li>
-                    <li>Bootstrap</li>
-                    <li>Tailwind CSS</li>
+                    <li><strong>MySQL</strong> - Relational database, Query optimization</li>
+                    <li><strong>MongoDB</strong> - NoSQL database, Aggregation pipeline</li>
+                    <li><strong>PostgreSQL</strong> - Advanced SQL features, JSON support</li>
+                    <li><strong>Firebase</strong> - Real-time database, Authentication</li>
+                    <li><strong>Redis</strong> - In-memory caching, Session storage</li>
                 </ul>
-            </div>
-            <div>
-                <h3>Database</h3>
-                <ul>
-                    <li>MySQL</li>
-                    <li>MongoDB</li>
-                    <li>PostgreSQL</li>
-                    <li>Firebase</li>
-                </ul>
-            </div>
-            <div>
+            </article>
+
+            <article>
                 <h3>Tools & Platform</h3>
-                <ul>
-                    <li>Git & GitHub</li>
-                    <li>VS Code</li>
-                    <li>Docker</li>
-                    <li>Netlify</li>
-                    <li>Vercel</li>
-                    <li>AWS</li>
-                </ul>
-            </div>
+                <table border="1">
+                    <caption>Tools dan Platform yang Dikuasai</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Kategori</th>
+                            <th scope="col">Tools/Platform</th>
+                            <th scope="col">Level</th>
+                            <th scope="col">Penggunaan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Version Control</th>
+                            <td>Git & GitHub</td>
+                            <td>Expert</td>
+                            <td>Daily workflow, Collaboration, CI/CD</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Code Editor</th>
+                            <td>VS Code</td>
+                            <td>Expert</td>
+                            <td>Primary development environment</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Containerization</th>
+                            <td>Docker</td>
+                            <td>Intermediate</td>
+                            <td>Development environment, Deployment</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Deployment</th>
+                            <td>Netlify, Vercel</td>
+                            <td>Advanced</td>
+                            <td>Static site deployment, Serverless functions</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Cloud Platform</th>
+                            <td>AWS</td>
+                            <td>Beginner</td>
+                            <td>EC2, S3, Lambda basics</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
         </section>
 
-        <!-- Projects Section -->
+        <!-- Portfolio Proyek -->
         <section id="projects">
-            <h2>Proyek Terbaru</h2>
+            <header>
+                <h2>Portfolio Proyek</h2>
+            </header>
+            
             <article>
-                <h3>E-Commerce Platform</h3>
-                <p><strong>Teknologi:</strong> React.js, Node.js, MongoDB, Express.js</p>
-                <p>Platform e-commerce lengkap dengan fitur keranjang belanja, payment gateway, dan admin dashboard. Menggunakan teknologi modern untuk performa optimal.</p>
-                <p><strong>Link:</strong> <a href="#" target="_blank">Live Demo</a> | <a href="#" target="_blank">Source Code</a></p>
+                <header>
+                    <h3>E-Commerce Platform</h3>
+                    <p><time datetime="2023-06">Juni 2023</time> - <time datetime="2023-12">Desember 2023</time></p>
+                </header>
+                <dl>
+                    <dt>Deskripsi</dt>
+                    <dd>Platform e-commerce lengkap dengan fitur keranjang belanja, payment gateway, dan admin dashboard. Menggunakan teknologi modern untuk performa optimal.</dd>
+                    
+                    <dt>Teknologi</dt>
+                    <dd>React.js, Node.js, MongoDB, Express.js, Stripe API</dd>
+                    
+                    <dt>Fitur Utama</dt>
+                    <dd>
+                        <ul>
+                            <li>User authentication & authorization</li>
+                            <li>Product catalog dengan search & filter</li>
+                            <li>Shopping cart & checkout process</li>
+                            <li>Payment integration dengan Stripe</li>
+                            <li>Admin dashboard untuk manajemen produk</li>
+                            <li>Order tracking & history</li>
+                        </ul>
+                    </dd>
+                    
+                    <dt>Link</dt>
+                    <dd>
+                        <a href="#" target="_blank" rel="noopener">Live Demo</a> | 
+                        <a href="#" target="_blank" rel="noopener">Source Code</a>
+                    </dd>
+                </dl>
             </article>
+
             <article>
-                <h3>Task Management App</h3>
-                <p><strong>Teknologi:</strong> Vue.js, Firebase, Vuetify</p>
-                <p>Aplikasi manajemen tugas dengan fitur real-time collaboration, drag & drop interface, dan notifikasi push.</p>
-                <p><strong>Link:</strong> <a href="#" target="_blank">Live Demo</a> | <a href="#" target="_blank">Source Code</a></p>
+                <header>
+                    <h3>Task Management Application</h3>
+                    <p><time datetime="2023-01">Januari 2023</time> - <time datetime="2023-05">Mei 2023</time></p>
+                </header>
+                <dl>
+                    <dt>Deskripsi</dt>
+                    <dd>Aplikasi manajemen tugas dengan fitur real-time collaboration, drag & drop interface, dan notifikasi push.</dd>
+                    
+                    <dt>Teknologi</dt>
+                    <dd>Vue.js, Firebase, Vuetify, PWA</dd>
+                    
+                    <dt>Fitur Utama</dt>
+                    <dd>
+                        <ul>
+                            <li>Real-time collaboration</li>
+                            <li>Drag & drop task management</li>
+                            <li>Push notifications</li>
+                            <li>Offline support (PWA)</li>
+                            <li>Team management</li>
+                            <li>Progress tracking & analytics</li>
+                        </ul>
+                    </dd>
+                    
+                    <dt>Link</dt>
+                    <dd>
+                        <a href="#" target="_blank" rel="noopener">Live Demo</a> | 
+                        <a href="#" target="_blank" rel="noopener">Source Code</a>
+                    </dd>
+                </dl>
             </article>
+
             <article>
-                <h3>Portfolio Website</h3>
-                <p><strong>Teknologi:</strong> HTML5, CSS3, JavaScript</p>
-                <p>Website portfolio personal dengan animasi interaktif dan desain responsif yang modern.</p>
-                <p><strong>Link:</strong> <a href="https://andika-natha.netlify.app" target="_blank">Live Demo</a> | <a href="#" target="_blank">Source Code</a></p>
+                <header>
+                    <h3>Personal Portfolio Website</h3>
+                    <p><time datetime="2022-08">Agustus 2022</time> - <time datetime="2022-12">Desember 2022</time></p>
+                </header>
+                <dl>
+                    <dt>Deskripsi</dt>
+                    <dd>Website portfolio personal dengan animasi interaktif dan desain responsif yang modern.</dd>
+                    
+                    <dt>Teknologi</dt>
+                    <dd>HTML5, CSS3, JavaScript, GSAP, Netlify</dd>
+                    
+                    <dt>Fitur Utama</dt>
+                    <dd>
+                        <ul>
+                            <li>Responsive design</li>
+                            <li>Interactive animations</li>
+                            <li>Contact form dengan Netlify Forms</li>
+                            <li>SEO optimized</li>
+                            <li>Performance optimized</li>
+                        </ul>
+                    </dd>
+                    
+                    <dt>Link</dt>
+                    <dd>
+                        <a href="https://andika-natha.netlify.app" target="_blank" rel="noopener">Live Demo</a> | 
+                        <a href="#" target="_blank" rel="noopener">Source Code</a>
+                    </dd>
+                </dl>
             </article>
         </section>
 
-       
+        <!-- Pencapaian & Sertifikasi -->
+        <section id="achievements">
+            <header>
+                <h2>Pencapaian</h2>
+            </header>
+
+            <article>
+                <h3>Kontribusi Open Source</h3>
+                <ul>
+                    <li><strong>Active Contributor</strong> - Vue.js Documentation Translation (Indonesian)</li>
+                    <li><strong>Maintainer</strong> - React Component Library (50+ stars on GitHub)</li>
+                    <li><strong>Contributor</strong> - Various open source projects (100+ commits)</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Kemampuan Bahasa -->
+        <section id="languages">
+            <header>
+                <h2>Kemampuan Bahasa</h2>
+            </header>
+            <table border="1">
+                <caption>Tingkat Kemampuan Bahasa</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Bahasa</th>
+                        <th scope="col">Berbicara</th>
+                        <th scope="col">Menulis</th>
+                        <th scope="col">Membaca</th>
+                        <th scope="col">Mendengar</th>
+                        <th scope="col">Sertifikat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Bahasa Indonesia</th>
+                        <td>Native</td>
+                        <td>Native</td>
+                        <td>Native</td>
+                        <td>Native</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">English</th>
+                        <td>Fluent</td>
+                        <td>Advanced</td>
+                        <td>Advanced</td>
+                        <td>Fluent</td>
+                        <td>TOEFL ITP: 550</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Minat & Hobi -->
+        <section id="interests">
+            <header>
+                <h2>Minat & Hobi</h2>
+            </header>
+            
+            <article>
+                <h3>Teknologi & Programming</h3>
+                <ul>
+                    <li><strong>Web Development</strong> - Mengikuti perkembangan framework dan tools terbaru</li>
+                    <li><strong>Machine Learning</strong> - Belajar Python untuk data science dan AI</li>
+                    <li><strong>Mobile Development</strong> - Eksplorasi React Native dan Flutter</li>
+                    <li><strong>Cloud Computing</strong> - Mempelajari arsitektur cloud dan DevOps</li>
+                    <li><strong>Open Source</strong> - Aktif berkontribusi pada proyek open source</li>
+                </ul>
+            </article>
+
+        </section>
     </main>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Andika Natha. Semua hak dilindungi.</p>
-        <p>Dibuat menggunakan HTML murni</p>
-        <p>Terakhir diperbarui: <time datetime="2024-01-01">1 Januari 2024</time></p>
+        <hr>
+        <address>
+            <p><strong>Andika Natha</strong></p>
+            <p>Email: <a href="mailto:setya.natha@gmail.com">setya.natha@gmail.com</a></p>
+            <p>Phone: <a href="tel:+62817469060">+62 817 469 060</a></p>
+        </address>
+        
+        <p><small>&copy; <time datetime="2025">2025</time> Andika Natha. Semua hak dilindungi.</small></p>
+        <p><small>Dibuat menggunakan HTML5 semantik murni untuk keperluan akademik</small></p>
+        <p><small>Terakhir diperbarui: <time datetime="2025-10-03">03 Oktober 2025</time></small></p>
+        
+        <nav aria-label="Footer navigation">
+            <p><small>
+                <a href="#personal-info">Kembali ke atas</a> | 
+                <a href="mailto:setya.natha@gmail.com">Kontak</a> | 
+                <a href="https://andika-natha.netlify.app" target="_blank" rel="noopener">Portfolio</a>
+            </small></p>
+        </nav>
     </footer>
 </body>
 </html>
